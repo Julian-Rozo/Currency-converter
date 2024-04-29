@@ -1,9 +1,9 @@
 const fromCur = document.querySelector(".from select");
 const toCur = document.querySelector(".to select");
-const getBtn = document.querySelector("form button");
-const exIcon = document.querySelector("form .reverse");
-const amount = document.querySelector("form input");
-const exRateTxt = document.querySelector("form .result");
+const getBtn = document.querySelector(".form-container button");
+const exIcon = document.querySelector(".form-container .reverse");
+const amount = document.querySelector(".form-container input");
+const exRateTxt = document.querySelector(".form-container .result");
 
 [fromCur, toCur].forEach((select, i) => {
     for (let curCode in Country_List) {
