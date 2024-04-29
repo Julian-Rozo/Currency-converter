@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Currency converter</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  
 </head>
 <body>
-    <div class="container">
-        <h1 class="page-title">
-          Currency converter
-        </h1>
-        <form>
-            <div class="amount">
-                <p>Amount</p>
-                <input type="text" value="1">
-            </div>
-            <div class="convert">
-                <div class="from">
-                    <p>From</p>
-                    <div class="select-input">
-                        <img src="https://flagcdn.com/48x36/us.png">
-                        <select class="from-select"></select>
-                    </div>
-                </div>
-                <div class="reverse"><i class="fas fa-exchange-alt"></i></div>
-                <div class="to">
-                    <p>To</p>
-                    <div class="select-input">
-                        <img src="https://flagcdn.com/48x36/co.png">
-                        <select class="to-select"></select>
-                    </div>
-                </div>
-    
-                <div class="result">Getting exchange rate</div>
-                <button class="button">Get exchange rate</button>
-            </div>
-    
-        </form>
-
-        <div class="image-container">
-            <img src="img/currency.png">
+  <div class="container">
+    <h1 class="page-title">
+      Currency converter
+    </h1>
+    <form>
+        <div class="amount">
+            <p>Amount</p>
+            <input type="text" value="1">
         </div>
+        <div class="convert">
+            <div class="from">
+                <p>From</p>
+                <div class="select-input">
+                    <img src="https://flagcdn.com/48x36/us.png">
+                    <select class="from-select"></select>
+                </div>
+            </div>
+            <div class="reverse"><i class="fas fa-exchange-alt"></i></div>
+            <div class="to">
+                <p>To</p>
+                <div class="select-input">
+                    <img src="https://flagcdn.com/48x36/co.png">
+                    <select class="to-select"></select>
+                </div>
+            </div>
+
+            <div class="result">Getting exchange rate</div>
+            <button class="button">Get exchange rate</button>
+        </div>
+
+    </form>
+
+    <div class="image-container">
+        <img src="img/currency.png">
     </div>
-   
-    <script src="countries.js"></script>
-    <script src="main.js"></script>
+</div>
+<script src="/main.js"></script>
+<script src="/countries.js"></script>
+    
 </body>
 </html>
